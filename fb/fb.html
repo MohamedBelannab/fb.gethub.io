@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+    background-color:#e9e6e6db;
+    text-decoration: none;
+}
+div{
+    position: relative;
+    width: 100%;
+    top: 95px;
+    left: 132px;
+
+}
+div h2{
+    padding-left: 15px;
+    margin-top: -19px;
+    margin-bottom: -3px;
+    font-size: 30px;
+}
+div p{
+    padding-left: 15px;
+    margin-top: -14px;
+    font-size: 16px;
+    font-weight: 800;
+}
+.nav{
+    position: relative;
+    width: 500px;
+    display: flex;
+}
+span{
+    position: relative;
+    background-color: white;
+    width: 157px;
+    height: 279px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 15px;
+    box-shadow: -1px 1px 3px 1px #8f8686b0;;
+    
+}
+.one img{
+    padding-left:54px ;
+    margin-top: 67px;
+}
+.two{
+    top: 21px;
+    font-size: 19px;
+    margin-top: 76px;
+    margin-right: 11px;
+    margin-left: 25px;
+    color: #1877f2; 
+}
+a{
+    text-decoration: none;
+}
+.four{
+    position: relative;
+    background-color: white;
+    width: 157px;
+    height: 279px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 15px;
+    box-shadow: -1px 1px 3px 1px #8f8686b0;;
+    
+}
+.four img{
+    margin-top: 0px;
+    width: 157px;
+    height: 165px;
+    border-radius: 15px 15px 0px 0px;
+}
+.three{
+    top: 21px;
+    font-size: 19px;
+    margin-top: 30px;
+    margin-right: 11px;
+    margin-left: 25px;
+    color: black;
+ 
+}
+a{
+    text-decoration: none;
+}
+.navo{
+    position: absolute;
+    top: 24%;
+    left: 57%;
+    width: 391px;
+    background: white;
+    height: 57%;
+    border-radius: 16px;
+    box-shadow: -1px 3px 8px -2px grey;
+}
+form{
+    padding: 0 40px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: -27px;
+}
+form input{
+    width: 364px;
+    height: 52px;
+    border-radius: 7px;
+    font-size: 17px;
+    padding: 14px 16px 14px 6px;
+    border: 1px solid #80808078;
+    outline: none;
+    margin-bottom: 11px;
+}
+form input:focus{
+    border: 1px solid #1877f2;
+    box-shadow: 0px 1px 5px 0px #1877f2;
+}
+input[type="submit"]{
+    font-size: 22px;
+    background-color: #1877f2;
+    font-weight: bold;
+    color: white;
+}
+form a{
+    color: #1877f2;
+    text-align: center;
+    font-weight: bold;
+
+}
+button{
+    width: 223px;
+    height: 52px;
+    border-radius: 7px;
+    outline: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background:#15cd15e0;
+    border: 1px solid #80808078;
+    margin-left: 62px;
+    margin-top: 20px;
+}
+hr{
+    width: 364px;
+    margin-top: 16px;
+}
+.koko{
+    position: relative;
+    top: 44px;
+    right: 72px;
+    left: 19px;
+    font-size: 15px;
+    font-weight: bold;
+}
+</style>
+<body>
+    <section>
+        <div class="container">
+            <div class="gov">
+                <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg"   alt=" width="198px" height="70px">
+                <h2> Connexions récentes</h2>
+                <p>Cliquez sur votre image ou sur Ajouter un compte.</p>
+            </div>
+            <div class="nav">    
+                <span class="one">
+                    <a href="">
+                    <img src="211600_plus_circled_icon (1).png" alt="">
+                    <p class="two">Ajouter un compte</p>
+                    </a>
+                </span>
+                <span class="four">
+                    <a href="">
+                    <img src="771516.png" alt="">
+                    <p class="three">Mohamed</p>
+                    </a>
+                </span>
+                
+            </div>
+      </div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="navo">
+                    <form action="post">
+                        <input type="email" required placeholder="Adresse e-mail ou numéro de tél">
+                        <input type="password" required placeholder="Mot de passe">
+                        
+                        <input type="submit" value="Se conecter">
+                        <a href="" class="link">Mot de passe oublié ?</a>
+                        <hr>
+                        
+                        <button>créer nouveau compte</button>
+                        
+                        <div class="koko">
+                           <a href=""> Créer une Page</a> pour une célébrité, une marque ou une entreprise. <br> made in morocco
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

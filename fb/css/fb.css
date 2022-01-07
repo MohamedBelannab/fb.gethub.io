@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+    background-color:#e9e6e6db;
+    text-decoration: none;
+}
+div{
+    position: relative;
+    width: 100%;
+    top: 95px;
+    left: 132px;
+
+}
+div h2{
+    padding-left: 15px;
+    margin-top: -19px;
+    margin-bottom: -3px;
+    font-size: 30px;
+}
+div p{
+    padding-left: 15px;
+    margin-top: -14px;
+    font-size: 16px;
+    font-weight: 800;
+}
+.nav{
+    position: relative;
+    width: 500px;
+    display: flex;
+}
+span{
+    position: relative;
+    background-color: white;
+    width: 157px;
+    height: 279px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 15px;
+    box-shadow: -1px 1px 3px 1px #8f8686b0;;
+    
+}
+.one img{
+    padding-left:54px ;
+    margin-top: 67px;
+}
+.two{
+    top: 21px;
+    font-size: 19px;
+    margin-top: 76px;
+    margin-right: 11px;
+    margin-left: 25px;
+    color: #1877f2; 
+}
+a{
+    text-decoration: none;
+}
+.four{
+    position: relative;
+    background-color: white;
+    width: 157px;
+    height: 279px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 15px;
+    box-shadow: -1px 1px 3px 1px #8f8686b0;;
+    
+}
+.four img{
+    margin-top: 0px;
+    width: 157px;
+    height: 165px;
+    border-radius: 15px 15px 0px 0px;
+}
+.three{
+    top: 21px;
+    font-size: 19px;
+    margin-top: 30px;
+    margin-right: 11px;
+    margin-left: 25px;
+    color: black;
+ 
+}
+a{
+    text-decoration: none;
+    color: #1877f2;
+}
+.navo{
+    position: absolute;
+    top: 24%;
+    left: 57%;
+    width: 391px;
+    background: white;
+    height: 57%;
+    border-radius: 16px;
+    box-shadow: -1px 3px 8px -2px grey;
+}
+form{
+    padding: 0 40px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: -27px;
+}
+form input{
+    width: 364px;
+    height: 52px;
+    border-radius: 7px;
+    font-size: 17px;
+    padding: 14px 16px 14px 6px;
+    border: 1px solid #80808078;
+    outline: none;
+    margin-bottom: 11px;
+}
+form input:focus{
+    border: 1px solid #1877f2;
+    box-shadow: 0px 1px 5px 0px #1877f2;
+}
+input[type="submit"]{
+    font-size: 22px;
+    background-color: #1877f2;
+    font-weight: bold;
+    color: white;
+}
+form .link{
+    color: #1877f2;
+    text-align: center;
+    font-weight: bold;
+
+}
+button{
+    width: 223px;
+    height: 52px;
+    border-radius: 7px;
+    outline: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background:#15cd15e0;
+    border: 1px solid #80808078;
+    margin-left: 62px;
+    margin-top: 20px;
+}
+hr{
+    width: 364px;
+    margin-top: 16px;
+}
+.koko{
+    position: relative;
+    top: 44px;
+    right: 72px;
+    left: 19px;
+    font-size: 15px;
+    font-weight: bold;
+}
+ @media screen and (max-width:500px) {
+     .nav{
+         display: none;
+     }
+     .gov{
+        position: relative;
+        top: 56px;
+        left: 34px;
+     }
+     .navo{
+        position: absolute;
+        top: 37%;
+        left: 10%;
+        width: 341px;
+        background: white;
+        height: 62%;
+        border-radius: 16px;
+        box-shadow: -1px 3px 8px -2px grey;
+     }
+     form input {
+        width: 315px;
+    
+        height: 52px;
+        border-radius: 7px;
+        font-size: 17px;
+        padding: 14px 16px 14px 6px;
+        border: 1px solid #80808078;
+        outline: none;
+        margin-bottom: 11px;
+    }
+    hr {
+        width: 318px;
+        margin-top: 16px;
+    }
+    button {
+        width: 223px;
+        height: 52px;
+        border-radius: 7px;
+        outline: none;
+        font-size: 17px;
+        font-weight: bold;
+        color: white;
+        background: #15cd15e0;
+        border: 1px solid #80808078;
+        margin-left: 45px;
+        margin-top: 20px;
+    }
+    form .link {
+        color: #1877f2;
+        text-align: center;
+        font-weight: bold;
+        margin-left: 35px;
+    }
+     
+ }
+    
+
+    
+
